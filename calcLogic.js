@@ -20,7 +20,7 @@ console.log("js file linked");
 
             function bmiCalc(a,b) {
                 var bmi = a / (b * b);
-                return bmi;
+                return Math.floor(bmi * 100) / 100;
             }
 
             // get values from text inputs and caclulate bmi

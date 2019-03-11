@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>BMI Calculator</title>
-        <link href="style.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
     </head>
 
     <body>
-        <h1>Basic BMI Calculator</h1>
+        
+        <div class="parent">
 
-        <h2>Enter Height:</h2>
-        Feet:<input id="heightFeet" name="height-feet" type="number">
-        Inches:<input id="heightInches" name="height-inches" type="number">
+            <div class="child border font">
 
-        <h2>Enter Weight:</h2>
-        Pounds:<input id="weight" name="weight" type="number">
+                <h1>BMI Calculator</h1>
+                    
+                <h2>Enter Height:</h2>
+                    
+                Feet:<input id="heightFeet" class="inputs" name="height-feet" type="number">
+                Inches:<input id="heightInches" class="inputs" name="height-inches" type="number">
 
-        <button id="calculateBtn" type="submit">Calculate</button>
+                <h2>Enter Weight:</h2>
+                
+                Pounds:<input id="weight" class="inputs" name="weight" type="number">
 
-        <div id="results">
-            <!-- dytnamic -->
+                <button id="calculateBtn" class="buttons" type="submit">Calculate</button>
+
+                <div id="results">
+                 <!-- dytnamic -->
+                </div>
+
+            </div>
+
         </div>
         
         <script src="calcLogic.js"></script>
