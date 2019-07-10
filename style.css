@@ -12,7 +12,7 @@ html, body {
 }
 
 .child {
-    background-color: #f26060;
+    background-color: white;
     text-align: center;
     padding: 25px;
 
@@ -42,7 +42,7 @@ html, body {
 .inputs {
     margin-left: 5px;
     text-decoration: none;
-    border: solid white 2px;
+    border: solid #3850af 2px;
     background-color: transparent;
 
 }
